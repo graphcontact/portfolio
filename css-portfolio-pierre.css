@@ -1,0 +1,493 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 1px;
+
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: #1a988c;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 35px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px
+}
+
+h3 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+
+}
+
+p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+/* **********HEADER************* */
+
+
+
+
+.header {
+    background-color: #1a988c;
+    width: 100vw;
+    height: 37%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vw;
+
+}
+
+#ligne-header {
+    width: 70%;
+    height: 2px;
+    background-color: white;
+}
+
+.nom {
+    width: 100%;
+    line-height: 50%;
+}
+
+#photo {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    border: 0.5vw white solid;
+    margin-top: 12px
+}
+
+.nom h1 {
+    color: white;
+
+}
+
+.nom h2 {
+    font-size: 17px;
+
+}
+
+.coordonnees {
+    line-height: 150%;
+}
+
+.coordonnees i {
+    color: black;
+    font-size: 20px;
+    padding: 1px
+}
+
+
+
+
+/* **********NAVBAR********** */
+
+
+#menuMobile {
+    visibility: hidden;
+    margin-left: 10px;
+    color: white;
+}
+
+nav {
+    padding-bottom: 30px;
+}
+
+nav li i {
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav i {
+    display: none;
+}
+
+#navigation {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+    }
+
+.navbar {
+    width: 100vw;
+    height: 5vw;
+    background: linear-gradient(to right, transparent, #1a988c, transparent);
+    border-top: 5px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-left: 0.5px #03b5a4 solid;
+    border-right: 0.5px #03b5a4 solid;
+
+}
+
+.navbar p:hover {
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.1, 1.1);
+}
+
+
+
+
+/* ******************A PROPOS****** */
+
+
+
+
+#a-propos {
+
+    margin: 0 auto;
+    width: 70%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-propos h1 {
+    padding-top: 30px;
+}
+
+
+.mots-vert {
+    color: #1a988c;
+    font-family: 'Sedgwick Ave', cursive;
+    font-weight: lighter;
+}
+
+
+.ligne {
+    margin: 50px;
+    width: 40%;
+    height: 2px;
+    background-color: #1a988c;
+}
+
+
+
+
+/* ************************PORTFOLIO***** */
+
+
+
+
+img {
+    width: 30vw;
+    border-radius: 3%;
+}
+
+
+img:hover {
+    transform: scale(1.05, 1.05);
+    transition: 1s;
+    opacity: 80%;
+    border-bottom: 2px #1a988c solid;
+    border-right: 2px #1a988c solid;
+    padding: 10px
+
+}
+
+
+#texte {
+    width: 40vw;
+    margin-left: 5vw;
+
+}
+
+#projets {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* *******PRINT***** */
+
+
+
+
+#print-web {
+    padding: 1vw;
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* *********LOGOS****** */
+
+
+#logos {
+    padding: 1vw;
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texte-logos {
+    width: 50%;
+    margin-right: 5%;
+}
+
+
+/* *******WEBDESIGN****** */
+
+
+
+
+
+
+
+
+
+/* *******SOCIAL NETWORKS******** */
+
+footer {
+    width: 100vw;
+    height: 10vw;
+    background-color: #1a988c;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#social-networks i {
+    margin: 0 auto;
+    font-size: 40px;
+    color: black;
+    margin: 10px
+}
+
+#social-networks i:hover {
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.2, 1.2);
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+    padding: 5px;
+    
+}
+
+
+
+
+
+
+
+/**** ******RESPONSIVE*********************
+================= */
+/* *****MEDIA QUERY
+********** */
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    #hamburger {
+        display: block;
+        padding: 10px;    
+        color: white;
+    }
+    
+    #menuMobile {
+        display: block;
+        font-size: 20px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: flex-start;
+        max-width 10%;
+        color: white;
+        background-color: #1a988c;
+    }
+    
+    nav {
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #1a988c;
+        padding: 20px;
+        opacity: 70%;
+    }
+    
+    nav li {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 25px
+    }
+    
+    nav i {
+        color: white;
+        visibility: visible;
+        text-align: left;
+    }
+
+    #navigation a {
+        display: block;
+        background-color: #1a988c;
+        width: 100vw;
+    }
+
+    nav a {
+        visibility: visible;
+        text-decoration: none;
+        
+    }
+    #navigation a:active {
+        color: #1a988c;
+        padding-left: 10px;
+        border-left: 2px #1a988c solid
+    }
+
+
+    .nom {
+        font-size: 14px;
+        width: 90vw;
+        line-height: 50%;
+    }
+
+    .nom h2 {
+        font-size: 15px;
+        width: 100vw;
+        line-height: 50%;
+    }
+
+    .coordonnees i {
+        color: black;
+        font-size: 15px;
+    }
+
+
+    #photo {
+        width: 40vw;
+        height: 40vw;
+        border-radius: 100%;
+        border: 1vw white solid;
+        margin-top: 12px
+    }
+
+    .navbar {
+        width: 0%;
+        height: 0vw;
+        background: transparent;
+
+    }
+
+    .navbar a {
+        color: transparent;
+        border: 0px transparent solid;
+        border-left: 0px transparent solid;
+        border-right: 0px transparent solid;
+    }
+
+    .navbar p {
+        color: transparent;
+        border: 0px transparent solid;
+        border-left: 0px transparent solid;
+        border-right: 0px transparent solid;
+
+
+    }
+
+
+    #texte-propos {
+        width: 80vw;
+    }
+
+
+    #projets {
+        width: 90vw;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #print-web {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logos {
+        width: 90vw;
+         display: flex;
+        flex-flow: column-reverse wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .image {
+        margin: 0 auto;
+        width: 80vw;
+        border-radius: 3%;
+    }
+
+    #texte {
+        margin: 0 auto;
+        width: 80vw;
+        height: 400px;
+     }
+
+    #texte-logos {
+        margin: 0 auto;
+        width: 80vw;
+    }
+
+    footer {
+        margin: 0 auto;
+    }
+
+    #social-networks i {
+        font-size: 5vw;
+        color: black;
+        margin: 5px;
+    }
+
+}
